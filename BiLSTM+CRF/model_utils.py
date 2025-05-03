@@ -17,7 +17,7 @@ from typing import List, Optional
 
 import numpy as np  # type: ignore
 import tensorflow as tf  # type: ignore
-from mwrapper import ModelWithCRFLoss  # type: ignore
+from model_wrapper import ModelWithCRFLoss  # type: ignore
 from tensorflow.keras.layers import Bidirectional  # type: ignore
 from tensorflow.keras.layers import Input  # type: ignore
 from tensorflow.keras.layers import Masking  # type: ignore
